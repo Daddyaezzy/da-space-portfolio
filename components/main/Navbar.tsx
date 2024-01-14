@@ -45,14 +45,14 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin"
           />
 
-          {window.innerWidth > 800 && (
+          {windowWidth > 800 && (
             <span className="font-bold ml-[10px] hidden md:block text-gray-300">
               DaddyAezzy
             </span>
           )}
         </a>
 
-        {window.innerWidth > 600 && (
+        {windowWidth > 600 && (
           <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
             <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
               <a
@@ -74,7 +74,7 @@ const Navbar = () => {
           </div>
         )}
 
-        {window.innerWidth > 600 ? (
+        {windowWidth > 600 ? (
           <div className="flex flex-row gap-5">
             <Link
               href="https://www.linkedin.com/in/anselm-fajobi-8ab5a623b"
