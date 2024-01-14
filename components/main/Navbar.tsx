@@ -2,7 +2,7 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Bars3CenterLeftIcon } from "@heroicons/react/24/solid";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
@@ -10,6 +10,26 @@ import NavSlider from "../sub/NavSlider";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(0);
+
+  useEffect(() => {
+    // Update window width on mount and on resize
+    const updateWindowWidth = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    // Initial update
+    updateWindowWidth();
+
+    // Add event listener for window resize
+    window.addEventListener("resize", updateWindowWidth);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", updateWindowWidth);
+    };
+  }, []);
+
   return (
     <div className="w-full h-[65px] fixed top-0  shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
       <div className="w-full h-full flex flex-row  items-center justify-between m-auto px-[10px]">
