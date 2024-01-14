@@ -48,7 +48,7 @@ const HeroContent = () => {
           className="lg:text-lg text-sm text-gray-400 my-5 max-w-[600px]"
           style={{ lineHeight: 1.4 }}
         >
-          HELLO, I&apos;M FAJOBI ANSELM I'M A WEB DEVELOPER IN NIGERIA,WITH A
+          HELLO, I'M FAJOBI ANSELM I'M A WEB DEVELOPER IN NIGERIA,WITH A
           MASTERING IN THE ART OF INNOVATION, COMMUNICATING WITH IMPACT, AND
           LEADING WITH EXCELLENCE.
         </motion.p>
