@@ -48,9 +48,9 @@ const HeroContent = () => {
           className="lg:text-lg text-sm text-gray-400 my-5 max-w-[600px]"
           style={{ lineHeight: 1.4 }}
         >
-          HELLO&comma; I&apos;M FAJOBI ANSELM I&apos;M A WEB DEVELOPER IN
-          NIGERIA&comma; WITH A MASTERING IN THE ART OF INNOVATION&&comma;
-          COMMUNICATING WITH IMPACT&comma; AND LEADING WITH EXCELLENCE.
+          HELLO&#44; I&apos;M FAJOBI ANSELM I&apos;M A WEB DEVELOPER IN
+          NIGERIA&#44; WITH A MASTERING IN THE ART OF INNOVATION&#44;
+          COMMUNICATING WITH IMPACT&#44; AND LEADING WITH EXCELLENCE.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
