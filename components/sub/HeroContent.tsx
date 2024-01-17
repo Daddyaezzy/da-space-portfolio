@@ -16,7 +16,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex md:flex-row flex-col items-center justify-center md:mt-[200px]  px-20 mt-[100px] z-[20] w-full"
+      className="flex md:flex-row flex-col items-center justify-center md:mt-[200px]  md:px-20 px-10 mt-[100px] z-[20] w-full"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start ">
         <motion.div
@@ -31,7 +31,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 lg:text-6xl text-5xl  font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 lg:text-6xl text-4xl  font-bold text-white max-w-[600px] w-auto h-auto"
           style={{ lineHeight: 1.2 }}
         >
           <span>
