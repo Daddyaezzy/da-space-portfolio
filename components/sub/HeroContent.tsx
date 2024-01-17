@@ -56,7 +56,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          <Link href="mailto:pulumbu11@gmail.com">Email Me</Link>
+          <Link href="mailto:pulumbu11@gmail.com">Email Me!</Link>
         </motion.a>
       </div>
 
