@@ -126,7 +126,7 @@ A vanilla Html, Css and Js project i decided to work on to create for an online 
         <p className="text-white ">
           Link to download my Resume:{" "}
           <span className="text-[#7d3c98] cursor-pointer">
-            <Link href="/My RESUME Fixed.docx" className="cursor-pointer">
+            <Link href="/Fajobi Anselm Resume.pdf" className="cursor-pointer">
               Download Here
             </Link>
           </span>
