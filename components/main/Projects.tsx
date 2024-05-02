@@ -23,6 +23,13 @@ This is a TikTok clone webApp which allows you to login, create account, interac
           url="https://flickshot-final.vercel.app/"
         />
         <ProjectCard
+          src="/appl-site.jpg"
+          title="Apple iPhone 15 Site "
+          description="
+This is the Apple iPhone 15 Site built with React, GSAP an ThreeJs. Comprises of complex animations and plays with videos and 3D models. I also tracked the number of Users that visit the site and integrated performace optimization so incase of crashes or error I the developer will be able to see it at my end and work on it"
+          url="https://da-apple-website.vercel.app"
+        />
+        <ProjectCard
           src="/Screenshot 2023-06-13 at 17.35.06.png"
           title="Ali3n Express"
           description="
@@ -97,6 +104,11 @@ A vanilla Html, Css and Js project i decided to work on to create for an online 
         />
 
         <ProjectVideo
+          src="/video/eride.MP4"
+          title="E-ride Project"
+          description="This a fullstack mobile application built by me, with Locomotion functionality, ability to book ride and track user location, user authentication, Driver mode, Passenger Mode, Dark mode, Booked Rides History and many more features. Built with React Native, MongoDB, SocketIo, NodeJs."
+        />
+        <ProjectVideo
           src="/video/uber-clone.MP4"
           title="Uber Clone"
           description="This an Uber Clone mobile application built with React Native, it finds real time directions of locations from one point to another using React Native Maps, Google Places API, Distance Matrics API, Directions API"
@@ -126,7 +138,7 @@ A vanilla Html, Css and Js project i decided to work on to create for an online 
         <p className="text-white ">
           Link to download my Resume:{" "}
           <span className="text-[#7d3c98] cursor-pointer">
-            <Link href="/Fajobi Anselm Resume.pdf" className="cursor-pointer">
+            <Link href="/FajobiAnselmREsume.pdf" className="cursor-pointer">
               Download Here
             </Link>
           </span>
