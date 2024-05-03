@@ -102,9 +102,10 @@ A Music Player created with vanilla Html, Css and Js, works like an android, pla
 A vanilla Html, Css and Js project i decided to work on to create for an online restaurant."
           url="https://da-tipcalculator.netlify.app/"
         />
+        <br />
 
         <ProjectVideo
-          src="/video/eride.MP4"
+          src="/video/eride1.mp4"
           title="E-ride Project"
           description="This a fullstack mobile application built by me, with Locomotion functionality, ability to book ride and track user location, user authentication, Driver mode, Passenger Mode, Dark mode, Booked Rides History and many more features. Built with React Native, MongoDB, SocketIo, NodeJs."
         />

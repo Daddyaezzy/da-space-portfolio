@@ -60,6 +60,18 @@ export const Skill_data = [
     height: 80,
   },
   {
+    skill_name: "Three JS",
+    Image: "/threejs.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Gsap Animation",
+    Image: "/gsap.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "Stripe Payment",
     Image: "/stripe.webp",
     width: 80,
@@ -159,6 +171,18 @@ export const Frontend_skill = [
   {
     skill_name: "Next js 13",
     Image: "/next.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Three JS",
+    Image: "/threejs.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Gsap Animation",
+    Image: "/gsap.png",
     width: 80,
     height: 80,
   },

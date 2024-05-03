@@ -16,7 +16,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex md:flex-row flex-col items-center justify-center md:mt-[200px]  md:px-20 px-10 mt-[100px] z-[20] w-full"
+      className="flex md:flex-row flex-col items-center justify-center md:mt-[120px]  md:px-20 px-10 mt-[100px] z-[20] w-full"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start ">
         <motion.div
@@ -25,7 +25,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="welcome-text text-[13px] text-white pr-1">
-            Software & Mobile Developer Portfolio
+            Fullstack Web & Mobile Developer
           </h1>
         </motion.div>
 
@@ -48,9 +48,10 @@ const HeroContent = () => {
           className="lg:text-lg text-sm text-gray-400 my-5 max-w-[600px]"
           style={{ lineHeight: 1.4 }}
         >
-          HELLO&#44; I&apos;M FAJOBI ANSELM I&apos;M A WEB DEVELOPER IN
-          NIGERIA&#44; WITH A MASTERING IN THE ART OF INNOVATION&#44;
-          COMMUNICATING WITH IMPACT&#44; AND LEADING WITH EXCELLENCE.
+          HELLO&#44; I&apos;M FAJOBI ANSELM I&apos;M A FULLSTACK WEB AND MOBILE
+          DEVELOPER&#44; WITH A MASTERING IN THE ART OF INNOVATION&#44;
+          COMMUNICATING WITH IMPACT&#44; AND LEADING WITH EXCELLENCE. WITH MY
+          DIVERSE SKILLSET I WILL PROVIDE YOU THE BEST I HAVE TO OFFER.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}

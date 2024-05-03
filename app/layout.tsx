@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Fajobi Anselm Portfolio",
-  description: "This is my portfolio",
+  description:
+    "A Fullstack Mobile and Web Developer With Knowledge Of Cyber Security Services. Diverse and Creating And Offering The Best Services For Clients and Companies ",
 };
 
 export default function RootLayout({
