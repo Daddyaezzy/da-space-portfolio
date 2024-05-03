@@ -7,7 +7,7 @@ const Hero = () => {
       <video
         autoPlay
         muted
-        loop
+        loop={true}
         className="rotate-180 absolute md:top-[-320px] top-[-520px] h-full w-full"
         style={{ objectFit: "cover" }}
       >
