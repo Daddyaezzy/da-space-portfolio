@@ -30,6 +30,13 @@ This is the Apple iPhone 15 Site built with React, GSAP an ThreeJs. Comprises of
           url="https://da-apple-website.vercel.app"
         />
         <ProjectCard
+          src="/iphone14.png"
+          title="iPhone 14 Site "
+          description="
+This is the Apple iPhone 14 Site built with React, GSAP an ThreeJs. Comprises of complex animations and plays with videos and 3D models."
+          url="https://da-apple-iphone14.vercel.app"
+        />
+        <ProjectCard
           src="/Screenshot 2023-06-13 at 17.35.06.png"
           title="Ali3n Express"
           description="
