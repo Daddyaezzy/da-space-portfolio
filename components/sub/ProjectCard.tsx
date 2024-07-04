@@ -12,7 +12,7 @@ interface Props {
 const ProjectCard = ({ src, title, description, url }: Props) => {
   return (
     <Link href={url} target="_blank" className="cursor-pointer ">
-      <div className="relative z-20 cursor-pointer w-[300px]  sm:w-[500px] min-h-[200px] overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] transform hover:translate-y-[-10px] transition-transform duration-300 ease-in-out">
+      <div className="relative z-20 cursor-pointer  overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] transform hover:translate-y-[-10px] transition-transform duration-300 ease-in-out">
         <Image
           src={src}
           alt={title}

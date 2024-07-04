@@ -7,14 +7,11 @@ import ProjectVideo from "../sub/ProjectVideo";
 
 const Projects = () => {
   return (
-    <div
-      className="flex flex-col items-center justify-center py-20"
-      id="projects"
-    >
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+    <div className=" justify-center py-20" id="projects">
+      <h1 className="text-[40px] font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
       </h1>
-      <div className="h-full w-full flex flex-wrap justify-center gap-10 px-10">
+      <div className="h-full w-full grid md:grid-cols-2 grid-cols-1 gap-10 container mx-auto px-20">
         <ProjectCard
           src="/flickshot-app.png"
           title="FlickShot - TikTok Clone"
@@ -124,22 +121,22 @@ A vanilla Html, Css and Js project i decided to work on to create for an online 
           </h1>
         </div>
 
-        <div className="h-full w-full flex flex-wrap justify-center gap-10 px-10">
+        <div className="h-full w-full grid md:grid-cols-2 grid-cols-1 gap-10  container mx-auto px-20">
           <ProjectVideo
-            src="/video/eride1.mp4"
+            src="/video/eride1.mov"
             title="E-ride Project"
             description="This a fullstack mobile application built by me, with Locomotion functionality, ability to book ride and track user location, user authentication, Driver mode, Passenger Mode, Dark mode, Booked Rides History and many more features. Built with React Native, MongoDB, SocketIo, NodeJs."
           />
-          <ProjectVideo
+          {/* <ProjectVideo
             src="/video/uber-clone.MP4"
             title="Uber Clone"
             description="This an Uber Clone mobile application built with React Native, it finds real time directions of locations from one point to another using React Native Maps, Google Places API, Distance Matrics API, Directions API"
-          />
-          <ProjectVideo
+          /> */}
+          {/* <ProjectVideo
             src="/video/job-app.MP4"
             title="DA Job Searcher"
             description="A Real Time Job searcher application, that finds jobs searched for and ability to apply, this was created using React native, Expo & Rapid API."
-          />
+          /> */}
           <ProjectVideo
             src="/video/weather-app.mov"
             title="DA Weather App"
