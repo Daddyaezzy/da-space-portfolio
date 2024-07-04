@@ -23,6 +23,13 @@ This is a TikTok clone webApp which allows you to login, create account, interac
           url="https://flickshot-final.vercel.app/"
         />
         <ProjectCard
+          src="/figma-clone.png"
+          title="Figma Clone"
+          description="
+This is a Figma clone webApp which allows you to design projects with the help of fabricJS, collaborate and interact with other users using liveblocks.io, enables Dark Mode and Light Mode with the help of Redux ToolKit. This Project was built using NextJs "
+          url="https://da-figma-clone.vercel.app/"
+        />
+        <ProjectCard
           src="/appl-site.jpg"
           title="Apple iPhone 15 Site "
           description="
