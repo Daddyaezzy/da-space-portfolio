@@ -20,6 +20,14 @@ This is a TikTok clone webApp which allows you to login, create account, interac
           url="https://flickshot-final.vercel.app/"
         />
         <ProjectCard
+          src="/krypt.png"
+          title="Krypt - Ethereum Transaction App"
+          description="
+Krypt is an Ethereum-based web app that facilitates sending ETH from one account to another on the Ethereum network. Built using Solidity, React, Context API, and Ether.js, this app provides a seamless and intuitive way to interact with the Ethereum blockchain."
+          url="https://da-krypt-eth.vercel.app/"
+        />
+
+        <ProjectCard
           src="/figma-clone.png"
           title="Figma Clone"
           description="
@@ -41,21 +49,21 @@ This is the Apple iPhone 14 Site built with React, GSAP an ThreeJs. Comprises of
           url="https://da-apple-iphone14.vercel.app"
         />
         <ProjectCard
-          src="/Screenshot 2023-06-13 at 17.35.06.png"
+          src="/ali3n-express.png"
           title="Ali3n Express"
           description="
 An E-Commerce project I created for a client, with the UI of Amazon. Still in Progress...."
           url="https://ali3n-express.netlify.app/"
         />
         <ProjectCard
-          src="/Screenshot 2023-09-13 at 2.36.04 PM.png"
+          src="/da-video.png"
           title="DA Video"
           description="
 A Video call Application, almost like a zoom replica. Which you can use to chat with your family and friends from far away created with React, NodeJS, Socket.IO and the likes.."
           url="https://da-video.netlify.app/"
         />
         <ProjectCard
-          src="/Screenshot 2023-06-12 at 01.41.01.png"
+          src="/da-recipies.png"
           title="DA Recipies"
           description="
 
@@ -63,7 +71,7 @@ A Food Recipe finder app, created with React, Nodejs and Api, this was done out 
           url="https://da-recipies.netlify.app/"
         />
         <ProjectCard
-          src="/Screenshot 2023-06-13 at 19.21.45.png"
+          src="/da-chat.png"
           title="DA Chat App"
           description="
 
@@ -72,7 +80,7 @@ A Chat Application done out of testing, it was created with react, context API a
           url="https://da-chatapp.netlify.app/"
         />
         <ProjectCard
-          src="/Screenshot 2023-06-12 at 01.24.03.png"
+          src="/da-collections.png"
           title="DA Collections"
           description="
 
@@ -100,19 +108,19 @@ A Simple UI Replica of Eazipay website built with NextJS..."
           url="https://eazipay-test-seven.vercel.app/"
         />
         <ProjectCard
-          src="/Screenshot 2023-06-13 at 19.03.42.png"
+          src="/da-music.png"
           title="DA Music Player"
           description="
 A Music Player created with vanilla Html, Css and Js, works like an android, plays music from audios stored in the songs folder."
           url="https://da-musicplayer.netlify.app/"
         />
-        <ProjectCard
+        {/* <ProjectCard
           src="/Screenshot 2023-06-13 at 19.13.37.png"
           title="DA Tip Calculator"
           description="
 A vanilla Html, Css and Js project i decided to work on to create for an online restaurant."
           url="https://da-tipcalculator.netlify.app/"
-        />
+        /> */}
       </div>
       <div className="mt-5">
         <div>
@@ -154,11 +162,14 @@ A vanilla Html, Css and Js project i decided to work on to create for an online 
           />
         </div>
       </div>
-      <div className="mt-[15px] text-center z-20">
-        <p className="text-white ">
+      <div className="mt-[15px] text-center z-99">
+        <p className="text-white  z-99">
           Link to download my Resume:{" "}
-          <span className="text-[#7d3c98] cursor-pointer">
-            <Link href="/FajobiAnselmREsume.pdf" className="cursor-pointer">
+          <span className="text-[#7d3c98] cursor-pointer z-99">
+            <Link
+              href="/FajobiAnselmREsume.pdf"
+              className="cursor-pointer z-99"
+            >
               Download Here
             </Link>
           </span>

@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Social Media</div>
-            <a href="https://www.instagram.com/daddyaezzy/" target="_blank">
+            <a href="https://www.instagram.com/bigdidiy/" target="_blank">
               <p className="flex flex-row items-center my-[15px] cursor-pointer">
                 <RxInstagramLogo />
                 <span className="text-[15px] ml-[6px]">Instagram</span>
@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
 
         <div className="mb-[20px] text-[15px] text-center">
-          &copy; Daddyaezzy 2024 Inc. All rights reserved
+          &copy; Daddyaezzy 2025 Inc. All rights reserved
         </div>
       </div>
     </div>
