@@ -10,13 +10,13 @@ interface Props {
 
 const ProjectVideo = ({ src, title, description }: Props) => {
   return (
-    <div className="relative cursor-pointer w-[80%]    overflow-hidden rounded-lg z-20 shadow-lg border border-[#2A0E61] ">
+    <div className="relative cursor-pointer w-full    overflow-hidden rounded-lg z-20 shadow-lg border border-[#2A0E61] ">
       <div className="flex justify-center items-center">
         <video muted controls className="w-[70%] h-full object-contain">
           <source src={src} />
         </video>
       </div>
-      s
+
       <div className="relative p-4">
         <h1 className="sm:text-2xl text-xl font-semibold text-white ">
           {title}

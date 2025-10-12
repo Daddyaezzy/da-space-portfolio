@@ -7,11 +7,11 @@ import Image from "next/image";
 
 const Encryption = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
-      <div className="absolute w-auto h-auto top-0 z-[5]">
+    <div className="md:flex hidden  flex-row relative items-center justify-center min-h-[60vh] md:min-h-screen w-full h-full px-4 md:px-10 py-12 md:py-0">
+      <div className="absolute w-auto h-auto top-10 md:top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
-          className="md:text-[40px] text-[30px] font-medium text-center text-gray-200"
+          className="text-2xl md:text-[40px] font-medium text-center text-gray-200 px-4"
         >
           Performance
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -22,30 +22,32 @@ const Encryption = () => {
         </motion.div>
       </div>
 
-      <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
+      <div className="flex flex-col items-center justify-center translate-y-[-20px] md:translate-y-[-50px] absolute z-[20] w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
           <Image
             src="/LockTop.png"
             alt="Lock top"
             width={50}
             height={50}
-            className="w-[50px] translate-y-5 transition-all duration-200 group-hover:translate-y-11"
+            className="w-[40px] md:w-[50px] translate-y-5 transition-all duration-200 group-hover:translate-y-11"
           />
           <Image
             src="/LockMain.png"
             alt="Lock Main"
             width={70}
             height={70}
-            className=" z-10"
+            className="w-[60px] md:w-[70px] z-10"
           />
         </div>
 
-        <div className="Welcome-box px-[15px] py-[4px] z-[20] border my-[20px] border-[#7042f88b] opacity-[0.9]">
-          <h1 className="Welcome-text text-white text-[12px]">Encryption</h1>
+        <div className="Welcome-box px-[12px] md:px-[15px] py-[3px] md:py-[4px] z-[20] border my-[15px] md:my-[20px] border-[#7042f88b] opacity-[0.9]">
+          <h1 className="Welcome-text text-white text-[10px] md:text-[12px]">
+            Encryption
+          </h1>
         </div>
       </div>
-      <div className="absolute z-[20] bottom-[10px] px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
+      <div className="absolute z-[20] bottom-[10px] md:bottom-[10px] px-[10px] md:px-[5px]">
+        <div className="cursive text-sm md:text-[20px] font-medium text-center text-gray-300">
           Secure your data with end-to-end encryption
         </div>
       </div>

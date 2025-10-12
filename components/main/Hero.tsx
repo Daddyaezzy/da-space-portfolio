@@ -3,7 +3,7 @@ import HeroContent from "../sub/HeroContent";
 
 const Hero = () => {
   return (
-    <div className="relative flex flex-col w-full h-full">
+    <div className="relative flex flex-col w-full items-center mt-8 justify-center h-full">
       <video
         autoPlay
         muted
@@ -11,7 +11,7 @@ const Hero = () => {
         className="rotate-180 absolute md:top-[-320px] top-[-520px] h-full w-full"
         style={{ objectFit: "cover" }}
       >
-        <source src="/blackhole.webm" type="video/webm" />
+        {/* <source src="/blackhole.webm" type="video/webm" /> */}
       </video>
       <HeroContent />
     </div>

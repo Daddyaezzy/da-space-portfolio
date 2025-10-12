@@ -7,11 +7,39 @@ import ProjectVideo from "../sub/ProjectVideo";
 
 const Projects = () => {
   return (
-    <div className=" justify-center py-20" id="projects">
-      <h1 className="text-[40px] font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+    <div className="justify-center py-12 md:py-20 px-4 md:px-10" id="projects">
+      <h1 className="text-2xl md:text-[40px] font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-8 md:py-20">
         My Projects
       </h1>
-      <div className="h-full w-full grid md:grid-cols-2 grid-cols-1 gap-10 container mx-auto px-20">
+      <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 container mx-auto max-w-7xl">
+        <ProjectCard
+          src="/moonrepublic.png"
+          title="Moon Republic"
+          description="
+This is an Educational Platform built for a client where, Students an login to access top notch courses from experts tutors either live or already recorded classes, Instructors can create and upload courses, Admin can manage users and courses. The Tech Stack used in building this webApp are NextJs, GoogleAPI, Sanity.io for the backend and Stripe for payment processing. I built the entire platform from scratch and also deployed it to Vercel."
+          url="https://moonrepublic.io/"
+        />
+        <ProjectCard
+          src="/aiforge.png"
+          title="Ai Forge "
+          description="
+Ai Forge is a decentralized Ai marketplace built on the 0G blockchain network. Allows you to create your own Ai agent with zero code and also monitize it. Built with Next js, MongoDB, NodeJs and the 0G SDK."
+          url="https://www.aif0rge.xyz/"
+        />
+        <ProjectCard
+          src="/solflip.png"
+          title="Sol Flip - Don't Sell your SOL "
+          description="
+SolFlip is a Solana-Based Platform/Casino that allows users, connect their solana wallet and flip their solana (SOL) to win more SOL. Built with NextJs, TailwindCSS, Solana Web3.js and Phantom Wallet API."
+          url="https://www.solflip.game/"
+        />
+        <ProjectCard
+          src="/remusai.png"
+          title="Machine Unlearning - Remus Ai "
+          description="
+Machine Unlearning is a cutting-edge platform developed by Remus AI that focuses on creating Twitter AI agents capable of generating human-like text. The platform leverages advanced machine learning techniques to enable users to interact with AI agents that can understand and respond to various prompts in a natural and coherent manner. Built with NextJs, TailwindCSS, NodeJs and MongoDB."
+          url="https://machine-unlearning.remusai.tech/"
+        />
         <ProjectCard
           src="/flickshot-app.png"
           title="FlickShot - TikTok Clone"
@@ -122,14 +150,19 @@ A vanilla Html, Css and Js project i decided to work on to create for an online 
           url="https://da-tipcalculator.netlify.app/"
         /> */}
       </div>
-      <div className="mt-5">
+      <div className="mt-10 md:mt-16">
         <div>
-          <h1 className="text-[28px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+          <h1 className="text-xl md:text-[28px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-8 md:py-20">
             Mobile Projects
           </h1>
         </div>
 
-        <div className="h-full w-full grid md:grid-cols-2 grid-cols-1 gap-10  container mx-auto px-20">
+        <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 container mx-auto ">
+          <ProjectVideo
+            src="/video/breakthrough.MP4"
+            title="Breakthrough Radio"
+            description="Built a Full stack Mobile Audio Streaming Platform for Breakthrough Family. This platform was built with React Native and NodeJs, has an Admin dashboard where Admins can monitor users check their activities and Go Live for streaming as well, I Worked on the Front and the backend."
+          />
           <ProjectVideo
             src="/video/eride1.mov"
             title="E-ride Project"
@@ -162,10 +195,10 @@ A vanilla Html, Css and Js project i decided to work on to create for an online 
           />
         </div>
       </div>
-      <div className="mt-[15px] text-center z-99">
-        <p className="text-white  z-99">
+      <div className="mt-8 md:mt-[15px] text-center z-99 px-4">
+        <p className="text-white text-sm md:text-base z-99">
           Link to download my Resume:{" "}
-          <span className="text-[#7d3c98] cursor-pointer z-99">
+          <span className="text-[#7d3c98] cursor-pointer z-99 underline hover:text-purple-400 transition-colors">
             <Link
               href="/FajobiAnselmREsume.pdf"
               className="cursor-pointer z-99"
