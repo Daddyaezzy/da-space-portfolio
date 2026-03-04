@@ -13,6 +13,48 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 container mx-auto max-w-7xl">
         <ProjectCard
+          src="/giftsngiggles.png"
+          title="Gifts n Giggles"
+          description="An e-commerce platform dedicated to selling a wide variety of gifts and gift items."
+          url="https://giftsngiggles.ca/"
+        />
+        <ProjectCard
+          src="/atg.png"
+          title="ATG Ecommerce"
+          description="A modern clothing brand e-commerce platform built for Above The Ground."
+          url="https://www.abovethegrovnd.com/"
+        />
+        <ProjectCard
+          src="/veilo.png"
+          title="Veilo Network"
+          description="A Solana-first privacy network layer featuring a mobile app and a Chrome extension. It functions as a fully private, untraceable wallet."
+          url="https://www.veilo.network/"
+        />
+        <ProjectCard
+          src="/spiderpigbnb.png"
+          title="Spiderpig BNB: Meme Token Ecosystem"
+          description="Created a Meme Token ecosystem on the Binance Smart Chain featuring an autonomous AI agent that dynamically generates and publishes token-related memes to X."
+          url="https://www.spiderpigbnb.wtf/"
+        />
+        <ProjectCard
+          src="/koly-market.png"
+          title="KOLy Market: AI-Powered Prediction Market"
+          description="Developed an AI-powered prediction market utilizing advanced LLMs to dynamically hype winning bettors or roast losing wagers regarding daily Key Opinion Leaders."
+          url="https://demo.kolymarket.io/"
+        />
+        <ProjectCard
+          src="/vaultspin.png"
+          title="Vaultspin: Gamified Crypto Casino Platform"
+          description="Built a large-scale, gamified crypto casino platform where users engage in PvP item battles to win luxury goods, fully funded via cryptocurrency."
+          url="https://vaultspin-optimized.vercel.app/"
+        />
+        <ProjectCard
+          src="/bananagun.png"
+          title="Bananagun.io: Cross-Chain Token Swapping Platform"
+          description="Contributed to a cross-chain token swapping platform, facilitating seamless exchanges between fiat currencies and standard cryptographic tokens across multiple blockchains."
+          url="https://bananagun.io/"
+        />
+        <ProjectCard
           src="/moonrepublic.png"
           title="Moon Republic"
           description="
@@ -76,29 +118,29 @@ This is the Apple iPhone 15 Site built with React, GSAP an ThreeJs. Comprises of
 This is the Apple iPhone 14 Site built with React, GSAP an ThreeJs. Comprises of complex animations and plays with videos and 3D models."
           url="https://da-apple-iphone14.vercel.app"
         />
-        <ProjectCard
+        {/* <ProjectCard
           src="/ali3n-express.png"
           title="Ali3n Express"
           description="
 An E-Commerce project I created for a client, with the UI of Amazon. Still in Progress...."
           url="https://ali3n-express.netlify.app/"
-        />
-        <ProjectCard
+        /> */}
+        {/* <ProjectCard
           src="/da-video.png"
           title="DA Video"
           description="
 A Video call Application, almost like a zoom replica. Which you can use to chat with your family and friends from far away created with React, NodeJS, Socket.IO and the likes.."
           url="https://da-video.netlify.app/"
-        />
-        <ProjectCard
+        /> */}
+        {/* <ProjectCard
           src="/da-recipies.png"
           title="DA Recipies"
           description="
 
 A Food Recipe finder app, created with React, Nodejs and Api, this was done out of the idea, that i wanted to learn how to cook perfectly."
           url="https://da-recipies.netlify.app/"
-        />
-        <ProjectCard
+        /> */}
+        {/* <ProjectCard
           src="/da-chat.png"
           title="DA Chat App"
           description="
@@ -106,8 +148,8 @@ A Food Recipe finder app, created with React, Nodejs and Api, this was done out 
 
 A Chat Application done out of testing, it was created with react, context API and Firebase Authentication. Still in progress..."
           url="https://da-chatapp.netlify.app/"
-        />
-        <ProjectCard
+        /> */}
+        {/* <ProjectCard
           src="/da-collections.png"
           title="DA Collections"
           description="
@@ -116,8 +158,8 @@ A Chat Application done out of testing, it was created with react, context API a
 
 A Personal E-Commerce project created with React and Redux toolkit."
           url="https://da-collections.netlify.app/"
-        />
-        <ProjectCard
+        /> */}
+        {/* <ProjectCard
           src="/lyrics-finder.png"
           title="DA Lyrics Finder"
           description="
@@ -127,21 +169,21 @@ A Personal E-Commerce project created with React and Redux toolkit."
 
 A Lyrics Finder application, created with React, Nodejs, Context API and Music Matxh API."
           url="https://da-musicmatch.netlify.app/"
-        />
-        <ProjectCard
+        /> */}
+        {/* <ProjectCard
           src="/eazipay-screenshot.png"
           title="Eazipay Prototype"
           description="
 A Simple UI Replica of Eazipay website built with NextJS..."
           url="https://eazipay-test-seven.vercel.app/"
-        />
-        <ProjectCard
+        /> */}
+        {/* <ProjectCard
           src="/da-music.png"
           title="DA Music Player"
           description="
 A Music Player created with vanilla Html, Css and Js, works like an android, plays music from audios stored in the songs folder."
           url="https://da-musicplayer.netlify.app/"
-        />
+        /> */}
         {/* <ProjectCard
           src="/Screenshot 2023-06-13 at 19.13.37.png"
           title="DA Tip Calculator"
@@ -200,7 +242,7 @@ A vanilla Html, Css and Js project i decided to work on to create for an online 
           Link to download my Resume:{" "}
           <span className="text-[#7d3c98] cursor-pointer z-99 underline hover:text-purple-400 transition-colors">
             <Link
-              href="/FajobiAnselmREsume.pdf"
+              href="/ANSELM_FAJOBI-Resume-Feb_2026.pdf"
               className="cursor-pointer z-99"
             >
               Download Here
