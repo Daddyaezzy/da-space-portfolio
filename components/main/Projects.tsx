@@ -12,11 +12,12 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 container mx-auto max-w-7xl">
+
         <ProjectCard
-          src="/giftsngiggles.png"
-          title="Gifts n Giggles"
-          description="An e-commerce platform dedicated to selling a wide variety of gifts and gift items."
-          url="https://giftsngiggles.ca/"
+          src="/koly-market.png"
+          title="KOLy Market: AI-Powered Prediction Market"
+          description="Developed an AI-powered prediction market utilizing advanced LLMs to dynamically hype winning bettors or roast losing wagers regarding daily Key Opinion Leaders."
+          url="https://demo.kolymarket.io/"
         />
         <ProjectCard
           src="/atg.png"
@@ -31,22 +32,34 @@ const Projects = () => {
           url="https://www.veilo.network/"
         />
         <ProjectCard
+          src="/giftsngiggles.png"
+          title="Gifts n Giggles"
+          description="An e-commerce platform dedicated to selling a wide variety of gifts and gift items."
+          url="https://giftsngiggles.ca/"
+        />
+        <ProjectCard
+          src="/ataktos.png"
+          title="Ataktos"
+          description="An NFT Marketplace for the community of Artists, with a live 3D gallery and a marketplace for buying and selling of NFTs. The Tech Stack used is React, ThreeJs, NodeJs, MongoDB, and the likes."
+          url="https://www.ataktos.art/"
+        />
+        <ProjectCard
           src="/spiderpigbnb.png"
           title="Spiderpig BNB: Meme Token Ecosystem"
           description="Created a Meme Token ecosystem on the Binance Smart Chain featuring an autonomous AI agent that dynamically generates and publishes token-related memes to X."
           url="https://www.spiderpigbnb.wtf/"
         />
         <ProjectCard
-          src="/koly-market.png"
-          title="KOLy Market: AI-Powered Prediction Market"
-          description="Developed an AI-powered prediction market utilizing advanced LLMs to dynamically hype winning bettors or roast losing wagers regarding daily Key Opinion Leaders."
-          url="https://demo.kolymarket.io/"
-        />
-        <ProjectCard
           src="/vaultspin.png"
           title="Vaultspin: Gamified Crypto Casino Platform"
           description="Built a large-scale, gamified crypto casino platform where users engage in PvP item battles to win luxury goods, fully funded via cryptocurrency."
           url="https://vaultspin-optimized.vercel.app/"
+        />
+        <ProjectCard
+          src="/afadare.png"
+          title="Afadare"
+          description="Afadare is Portfolio website for a CIoD of an Oil Cooperation. Built with NextJs, TailwindCSS, NodeJs and MongoDB."
+          url="https://afadare.com/"
         />
         <ProjectCard
           src="/bananagun.png"
